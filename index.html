@@ -23,10 +23,17 @@
     padding-left: 10%;
     padding-top: 4%;
   }
+  .bold { font-weight: bold; }
   </style>
+  <script>
+$(".boldtrigger").click(function() {
+    $(".text").toggleClass("bold");
+});
+</script>
 </head>
 
 <body>
+  <a href="#" class="boldtrigger">Bold</a>
   <form>
     <div id="box">
         <textarea id="box" type="message" class="message" rows="25"  placeholder="Enter your notes here..."></textarea>
