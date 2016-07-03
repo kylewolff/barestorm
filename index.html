@@ -3,11 +3,13 @@
 <head>
    
     <script>
+    $.getScript("https://raw.github.com/username/repo/master/src/script.js")
 $(document).ready(function() {
   $('#jBold').click(function() {
     document.execCommand('bold');
   });
 });
+document.getElementById("demo").innerHTML = "My First JavaScript";
 </script>
   <title>BareStorm</title>
   <style>
@@ -22,7 +24,6 @@ $(document).ready(function() {
     border: none;
     overflow: auto;
     outline: none;
-
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -31,12 +32,7 @@ $(document).ready(function() {
     padding-left: 10%;
     padding-top: 4%;
   }
-#fake_textarea {
-  width: 100%;
-  height: 200px;
-  border: 1px solid red;
-}
-button{
+ button{
   font-weigth:bold;
 }
   </style>
@@ -44,12 +40,12 @@ button{
 </head>
 
 <body>
-<button id="jBold"><b>B</b></button>
-<div id='fake_textarea' contenteditable>
-Select some text and click the button to make it bold...
-<br>Or write your own text
-</div>
-
+  <button id="jBold"><b>B</b></button>
+  <form>
+    <div id='box' contenteditable>
+        <textarea id="box" type="message" class="message" rows="25"  placeholder="Enter your notes here..."></textarea>
+    </div>
+  </form>
 </body>
 
 </html>
