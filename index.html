@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script>
+$(document).ready(function() {
+  $('#jBold').click(function() {
+    document.execCommand('bold');
+  });
+});
+});
+</script>
   <title>BareStorm</title>
   <style>
   textarea{
@@ -32,14 +40,7 @@
   border: 1px solid red;
 }
   </style>
-  <script>
-$(document).ready(function() {
-  $('#jBold').click(function() {
-    document.execCommand('bold');
-  });
-});
-});
-</script>
+
 </head>
 
 <body>
