@@ -12,6 +12,8 @@ textarea{
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+    padding-left: 10%;
+    padding-top: 4%;
   }
   .message{
     padding-left: 10%;
