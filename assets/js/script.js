@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('#jBold').click(function() {
-    document.execCommand('bold');
+    document.execCommand('underline');
   });
   $('#jUnderline').click(function() {
     document.execCommand('underline');
