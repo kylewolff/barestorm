@@ -3,4 +3,3 @@ $(document).ready(function() {
     document.execCommand('bold');
   });
 });
-document.getElementById("demo").innerHTML = "My First JavaScript";
