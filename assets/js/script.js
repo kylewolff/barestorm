@@ -8,4 +8,4 @@ $(document).ready(function() {
    $('#jItalic').click(function() {
     document.execCommand('italic');
   });
-}
+});
