@@ -5,4 +5,7 @@ $(document).ready(function() {
   $('#jUnderline').click(function() {
     document.execCommand('underline');
   });
+   $('#jItalic').click(function() {
+    document.execCommand('italic');
+  });
 });
