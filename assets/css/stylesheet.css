@@ -4,7 +4,7 @@ textarea{
   #box{
     width: 50%;
     height: 400px;
-    margin-left: auto;
+    margin-left: 200px;
     font-size: 19px;
     line-height: 25px;
     margin: 0;
@@ -14,7 +14,7 @@ textarea{
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-top: 4%;
   }
   .message{
