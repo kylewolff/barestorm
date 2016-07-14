@@ -2,9 +2,9 @@ textarea{
     resize: none;
   }
   #box{
+     margin: auto;
     width: 50%;
     height: 400px;
-    margin-left: 200px;
     font-size: 19px;
     line-height: 25px;
     margin: 0;
