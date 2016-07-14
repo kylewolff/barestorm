@@ -2,7 +2,7 @@ textarea{
     resize: none;
   }
   #box{
-    width: 88%;
+    width: 70%;
     height: 400px;
     font-size: 19px;
     line-height: 25px;
@@ -13,7 +13,7 @@ textarea{
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    padding-left: 10%;
+    padding-left: 25%;
     padding-top: 4%;
   }
   .message{
